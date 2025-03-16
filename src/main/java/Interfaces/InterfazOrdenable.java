@@ -8,6 +8,10 @@ package Interfaces;
  *
  * @author xioma
  */
-public interface InterfazOrdenable {
+public interface InterfazOrdenable  <T>{
+   
+    T mostrarLista();
+    T ordenar();
     
 }
+

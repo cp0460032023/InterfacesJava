@@ -8,6 +8,9 @@ package Interfaces;
  *
  * @author xioma
  */
-public interface InterfazVehiculo {
+public interface InterfazVehiculo  <T>{
+    
+    T arrancar();
+    T detener();
     
 }

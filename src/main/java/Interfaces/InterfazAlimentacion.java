@@ -8,6 +8,9 @@ package Interfaces;
  *
  * @author xioma
  */
-public interface InterfazAlimentacion {
+public interface InterfazAlimentacion  <T>{
+    
+    T comer();
     
 }
+

@@ -6,8 +6,15 @@ package Interfaces;
 
 /**
  *
- * @author xioma
+ * @author mauri
  */
-public interface InterfazAnimal {
+public interface InterfazAnimal <T>{
+    
+    T hacerSonido();
+    T mover();
     
 }
+
+
+
+

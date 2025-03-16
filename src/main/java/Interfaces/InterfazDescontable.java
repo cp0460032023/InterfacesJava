@@ -8,6 +8,9 @@ package Interfaces;
  *
  * @author xioma
  */
-public interface InterfazDescontable {
+public interface InterfazDescontable  <T>{
+    
+     T calcularDescuento(double precio);
     
 }
+

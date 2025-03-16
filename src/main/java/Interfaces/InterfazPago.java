@@ -8,6 +8,10 @@ package Interfaces;
  *
  * @author xioma
  */
-public interface InterfazPago {
+public interface InterfazPago <T>{
     
+    T procesarPago(double cantidad);
 }
+
+
+

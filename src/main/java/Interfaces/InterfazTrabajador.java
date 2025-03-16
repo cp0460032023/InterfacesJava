@@ -8,6 +8,8 @@ package Interfaces;
  *
  * @author xioma
  */
-public interface InterfazTrabajador {
+public interface InterfazTrabajador <T>{
+    
+    T trabajar();
     
 }
