@@ -8,6 +8,8 @@ package Interfaces;
  *
  * @author xioma
  */
-public interface InterfazNotificable {
+public interface InterfazNotificable <T>{
+    
+    T enviarNotificacion();
     
 }

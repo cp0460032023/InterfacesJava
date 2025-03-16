@@ -3,11 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
 package Interfaces;
-
+import ClasesImplementación.Producto;
 /**
  *
  * @author xioma
  */
-public interface InterfazComparable {
+public interface InterfazComparable <T>{
+    
+     T comparar(Producto o);
     
 }
+
